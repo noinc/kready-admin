@@ -1,0 +1,46 @@
+
+            <button data-toggle="modal" data-target="#add_tenant" class="btn btn-lg btn-success pull-right">Add a Tenant</button>
+
+<h1 class="main-heading">Tenants</h1>
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{tenant_name}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+ <div class="modal" id="add_tenant" tabindex="-1" role="dialog" aria-labelledby="addTenantModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="icon icon-close"></span><span class="sr-only">Close</span>
+            </button>
+            <h2 class="modal-title" id="exampleModalLabel">Add a Tenant</h2>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="tenant_name">Name</label>
+                <input type="text" class="form-control" name="tenant_name" id="tenant_name" placeholder="Name">
+              </div>
+
+              
+
+              <div class="form-group btn-row form-submit">
+                <button type="submit" class="btn btn-lg btn-success btn-fixed">Add</button>
+                <button data-dismiss="modal" class="btn btn-lg btn-info btn-fixed">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>

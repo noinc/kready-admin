@@ -1,0 +1,8 @@
+{
+    "elements": {
+        "kready-top-nav": {},
+        "ng-view": {},
+        "kready-left-nav": {}
+    },
+    "attributes": {}
+}
